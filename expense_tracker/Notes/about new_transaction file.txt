@@ -1,0 +1,9 @@
+The above code is a custom widget in Flutter called NewTransaction. It provides a form for the user to input the title and amount of a new transaction, and a button to add the transaction to the list.
+
+The NewTransaction widget extends StatelessWidget, and it takes in a function called addTx as a required parameter. This function is used to pass the new transaction data back to the parent widget.
+
+Inside the build method, the widget returns a Card with a padding of 10, containing a Column widget with three child widgets. The first two children are TextFields that allow the user to input the title and amount of the transaction. The title and amount input are stored in two TextEditingController objects called titleController and amountController respectively.
+
+The last child widget is a TextButton that is responsible for adding the new transaction to the list. When the button is pressed, it calls the addTx function with the title and amount input values. It also clears the input fields for the next transaction.
+
+Overall, the NewTransaction widget provides a reusable form for the user to add new transactions, which can be incorporated into any Flutter application that requires transaction input.

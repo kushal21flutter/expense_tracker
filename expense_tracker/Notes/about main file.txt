@@ -1,0 +1,9 @@
+The above code is a basic Flutter application that displays a simple user interface with a chart and a list of transactions. The application is divided into two main classes - MyApp and MyHomePage.
+
+MyApp is a StatelessWidget that is responsible for creating the MaterialApp widget, which provides the basic structure of the app. It sets the title of the app to 'Flutter App' and sets the home screen to MyHomePage.
+
+MyHomePage is another StatelessWidget that represents the main screen of the app. It creates a Scaffold widget that provides the basic layout structure of the screen. It contains an AppBar widget that displays the title of the app, and a SingleChildScrollView widget that enables scrolling when the screen is too small.
+
+The body of MyHomePage is a Column widget that contains two child widgets. The first child is a Container widget that displays a Card with the title 'CHART!' and a blue background color. The second child is a custom widget called UserTransactions, which is responsible for displaying the list of transactions.
+
+Inside the MyHomePage class, there are two TextEditingController objects that are used to manage the user input for creating new transactions. These are commented out in the code, but they can be used to store and manage user input for creating new transactions in the future.
